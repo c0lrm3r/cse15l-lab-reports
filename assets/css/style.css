@@ -1,0 +1,38 @@
+body {
+	background-color: #111111;
+	color: #11ff11;
+	align-content: center;
+	margin-right: 15%;
+	margin-left: 15%;
+	margin-top: 2%;
+	font-family: "Courier New", monospace;
+}
+
+
+h1 {
+	border-bottom-width: 1px;
+	border-bottom-style:  dotted;
+	border-bottom-color:  #11ff11;
+}
+p, i, b {
+	font-size: 1em;
+	text-align: justify;
+	text-justify: inter-word;
+	color: #15fd15;
+}
+
+pre, code {
+	font-size: 1.1em;
+	color: #c3c3c3;
+	background-color: #181818;
+	padding: .5rem;
+	line-height: 1;
+	overflow-x: scroll;
+}
+
+hr {
+	border-width: 2px;
+	border-style: dotted;
+	border-color:  #11ff11;
+}
+
