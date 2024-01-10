@@ -15,6 +15,9 @@ h1 {
 	border-bottom-color:  #11ff11;
 }
 
+header {
+	display : none;
+}
 href {
 	border-bottom-width: 1px;
 	border-bottom-style:  dotted;
