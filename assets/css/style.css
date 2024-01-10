@@ -14,6 +14,12 @@ h1 {
 	border-bottom-style:  dotted;
 	border-bottom-color:  #11ff11;
 }
+
+href {
+	border-bottom-width: 1px;
+	border-bottom-style:  dotted;
+	border-bottom-color:  #00ee00;
+}
 p, i, b {
 	font-size: 1em;
 	text-align: justify;
