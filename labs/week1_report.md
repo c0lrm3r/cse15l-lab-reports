@@ -1,6 +1,6 @@
-_2024-01-10_
-_CSE 15L Lab_
-_Week 1 Report_
+_2024-01-10_  
+_CSE 15L Lab_  
+_Week 1 Report_  
 
 # Week 1 Lab Report
 
