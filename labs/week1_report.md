@@ -43,7 +43,7 @@ bash: cd: lecture1/Hello.java: Not a directory
 ```
 ## "ls" Command
 
-Moving on, we have the `ls` command, which **l**i**s**ts directories and files. It is one of the main ways that we- human people- are able to explore the filesystem through a terminal. Below is an example of running the command with no arguments:
+Moving on, we have the `ls` command, which **L**i**S**ts directories and files. It is one of the main ways that we- human people- are able to explore the filesystem through a terminal. Below is an example of running the command with no arguments:
 
 ```
 [user@sahara ~]$ pwd
@@ -84,3 +84,37 @@ ls: cannot access 'Shrek-5.TorrentGalaxy.tz.mp5': No such file or directory
 _Although it would be pretty great if there was a Shrek 5, huh?_
 
 ## "cat" Command
+
+(woof)  
+
+The `cat` command is used to print the contents of one or more files to the terminal. In that way, it can con**CAT**inate multiple files together. However, if the command is run without a file path specified, it simply echos the Standard Input (stdin) stream to the terminal. See below:
+
+```
+[user@sahara ~]$ cat
+abcdefg
+abcdefg
+1234567
+1234567
+^C
+[user@sahara ~]$
+```
+
+Note how the strings "abcdefg" and "1234567" are printed twice. `cat` is simply echoing them back to the user. However, if a directory (not a file) is specified, the command will return the following error:
+
+```
+[user@sahara ~]$ cat lecture1/
+cat: lecture1/: Is a directory
+[user@sahara ~]$
+```
+
+The command simply whines and doesn't do anything, since a directory cannot be opened and read in the same way that a file can. If a file was specified as an argument (the correct usage of the command), then it simply prints the contents of that file to the terminal:
+
+```
+[user@sahara ~]$ cat lecture1/messages/en-us.txt 
+Hello World!
+[user@sahara ~]$ 
+```
+
+This is useful, as `cat` is much lighter and simpler than a text editor, and allows for a preview of a file without modifying it.
+
+_Still no actual cats, though :(_
