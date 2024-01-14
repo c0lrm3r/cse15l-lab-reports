@@ -42,4 +42,45 @@ bash: cd: lecture1/Hello.java: Not a directory
 [user@sahara ~]$ 
 ```
 ## "ls" Command
+
+Moving on, we have the `ls` command, which **l**i**s**ts directories and files. It is one of the main ways that we- human people- are able to explore the filesystem through a terminal. Below is an example of running the command with no arguments:
+
+```
+[user@sahara ~]$ pwd
+/home
+[user@sahara ~]$ ls
+lecture1
+[user@sahara ~]$
+```
+
+Notice that nothing has changed, we are still in the `/home` directory. All the command has done is list the contents of the current directory. We can specify a specific directoy to list by passing a relative (or absolute) path to the command as an argument. See below:  
+
+```
+[user@sahara ~]$ pwd
+/home
+[user@sahara ~]$ ls lecture1/
+Hello.class  Hello.java  messages  README
+[user@sahara ~]$ 
+```
+
+Now, instead of printing the contents of the current directoy, `ls` has printed the contents of the `lecture1/` directory as we had told it to. Our current working directory remains unchanged. However, if we specify a _file_ to list instead of a directory, `ls` will simply list the name of that file, if it exists.
+
+```
+[user@sahara ~]$ pwd
+/home
+[user@sahara ~]$ ls lecture1/Hello.java 
+lecture1/Hello.java
+[user@sahara ~]$ 
+```
+
+If the file (or directory) argument DOESN'T exist, the command produces an error message like the one below, indicating that it could not find the path specified.
+
+```
+[user@sahara ~]$ ls Shrek-5.TorrentGalaxy.tz.mp5
+ls: cannot access 'Shrek-5.TorrentGalaxy.tz.mp5': No such file or directory
+[user@sahara ~]$ 
+```
+
+_Although it would be pretty great if there was a Shrek 5, huh?_
+
 ## "cat" Command
