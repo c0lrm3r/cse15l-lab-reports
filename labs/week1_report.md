@@ -1,4 +1,4 @@
-_See https://c0lrm3r.github.io/cse15l-lab-reports/labs/week1_report_
+_See https://c0lrm3r.github.io/cse15l-lab-reports/labs/week1_report_  
 _2024-01-10_  
 _CSE 15L Lab_  
 _Week 1 Report_  
