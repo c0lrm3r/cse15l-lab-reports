@@ -214,7 +214,7 @@ Note that the file name `authorized_keys` is different than the `id_rsa.pub` on 
 
 Now when connecting to the cluster over SSH, authentication is automatically done using this key pair. The result is simple, password-less authentication:
 
-!(SSH connection without password)[https://raw.githubusercontent.com/c0lrm3r/cse15l-lab-reports/main/res/week3/screen4.jpg]
+![SSH connection without password](https://raw.githubusercontent.com/c0lrm3r/cse15l-lab-reports/main/res/week3/screen4.jpg)
 
 ## Part 3 (Reflection)
 
