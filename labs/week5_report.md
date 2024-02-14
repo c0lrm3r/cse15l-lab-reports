@@ -27,8 +27,7 @@ public void testAppendThree() {
 
 This test tests the `LinkedList.append(int value)` method, which should append the specified value as a new element at the end of the list. However, something is causing it to loop indefinitely. When running the tests, it ended up consuming ~7GB of my laptop's memory before I noticed; very good code. See below for the symptoms:
 
-!! add image of ram usage, add image of junit freezing
-[TODO INSERT IMAGES HERE]
+![Junit eating my memory](https://raw.githubusercontent.com/c0lrm3r/cse15l-lab-reports/main/res/week5/screen1.jpg)
 
 
 It is of note that two other test cases for this method exist and did not fail:
