@@ -9,6 +9,10 @@ body {
 	font-family: "Courier New", monospace;
 }
 
+img {
+	width: 100%;
+}
+
 h2 {
 	border-bottom-style: solid;
 	border-bottom-color: red;
