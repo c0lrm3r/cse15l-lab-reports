@@ -91,6 +91,6 @@ With that, we have completed our assigned tasks, and another day of grueling CS 
 
 _    The only problem with being faster than light is_  
 _    that you can only live in darkness._  
-  
-                - Sonic the Hedgehog, Year unknown  
+
+_              - Sonic the Hedgehog, Year unknown_
 
