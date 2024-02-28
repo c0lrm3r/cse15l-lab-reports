@@ -89,8 +89,8 @@ Now, GitHub reflects the changes we have made in this Lab.
 
 With that, we have completed our assigned tasks, and another day of grueling CS work has passed. Is this really worth a six-figure salary? Probably. Anyways, after a few attempts, I was able to get this entire process down to under 30 seconds (27.721 seconds, but who's counting?). There are probably tricks to go faster, however I would like to refer to this quote by a genius regarding speed:
 
-_    The only problem with being faster than light is_  
-_    that you can only live in darkness._  
+The only problem with being faster than light is 
+that you can only live in darkness.
 
-_              - Sonic the Hedgehog, Year unknown_
+         Sonic the Hedgehog, Year unknown
 
