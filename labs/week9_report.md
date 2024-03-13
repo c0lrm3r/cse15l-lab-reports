@@ -538,3 +538,4 @@ JSON is hard, and I'm lazy... okay?
 
 # Reflection
 
+If I'm being entirely honest, my favorite part of this class has been exploring the strange and useful combinations of terminal commands that you can build. I especially enjoyed learning about SSH, key-pair authentication, VIM, and writing Bash scripts to automate complex tasks. I have used linux and the terminal prior to this class (I'm writing this report in a terminal on linux right now!), and possibly the most suprising thing I learned from this class was that `cat`, when supplied with no arguments, just echos what you type. I never knew that! However, one of the more practical things that I've learned in this class has been `jdb`. Being able to set breakpoints, dump memory and object states, and generally dissect Java programs (using something more advanced than System.out.println()) is very nice. 
